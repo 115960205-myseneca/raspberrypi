@@ -137,13 +137,13 @@ def csvlatlong(filename):
 #     json.dump(row, jsonfile)
  #    jsonfile.write('\n')
     #i = i +1 
-def getlatlong(reader,search,key):
-  i=0
-  locations = [i for i, t in enumerate(reader) if t[0]==search]
-  value_at_index = list(reader.values())[locations[0]]
+#def getlatlong(reader,search,key):
+ # i=0
+  #locations = [i for i, t in enumerate(reader) if t[0]==search]
+  #value_at_index = list(reader.values())[locations[0]]
 #  print(value_at_index['lat'],value_at_index['long'],value_at_index['identifier'])
   
-  return value_at_index['lat'],value_at_index['long'],value_at_index['identifier']
+  #return value_at_index['lat'],value_at_index['long'],value_at_index['identifier']
 
 def getlatlong2(reader):
 
